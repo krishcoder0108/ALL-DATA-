@@ -1,0 +1,146 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tailwind E-commerce</title>
+
+   
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body>
+    <main class="bg-blue-500 m-5"></main>
+    <header class="flex h-10 items-center justify-around px-5">
+        <h1 class="text-3xl font-bold">W. </h1>
+        <ul class="flex gap-5 text-2xl font-lg items-center justify-between px-5">
+            <li class="hover:text-grey-500" ><a href="#" >Explorer</a></li>
+            <li><a href="#" class="hover:text-grey-500">Directory</a></li>
+            <li><a href="#" class="hover:text-grey-500">Academics</a></li>
+            <li><a href="#" class="hover:text-grey-500">Jobs</a></li>
+            <li><a href="#" class="hover:text-grey-500">Market</a></li>
+        </ul>
+    </header>
+
+
+
+
+
+
+
+
+
+
+
+
+    </header>
+
+
+</body>
+
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Awwwards UI Clone</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100 font-sans">
+
+    <!-- 🔥 NAVBAR -->
+    <header class="bg-white shadow-sm p-4 flex justify-between items-center">
+        <h1 class="text-xl font-bold">W.</h1>
+
+        <nav class="hidden md:flex gap-6 text-gray-600 ">
+            <span class="hover:text-gray-900 hover:underline hover:scale-105">Explore</span>
+            <span class="hover:text-gray-900 hover:underline hover:scale-105">Directory</span>
+            <span class="hover:text-gray-900 hover:underline hover:scale-105">Academy</span>
+            <span class="hover:text-gray-900 hover:underline hover:scale-105">Jobs</span>
+            <span class="hover:text-gray-900 hover:underline hover:scale-105">Market</span>
+        </nav>
+
+        <div class="flex items-center gap-3">
+            <button class="text-sm">Log in</button>
+            <button class="bg-black text-white px-3 py-1 rounded">Be Pro</button>
+        </div>
+    </header>
+
+    <!-- 🔍 SEARCH + FILTER -->
+    <section class="p-4 bg-white mt-2">
+        <div class="flex flex-col md:flex-row gap-3 items-center justify-between">
+
+            <input type="text" placeholder="Search by Websites"
+                class="w-full md:w-1/2 p-2 border rounded hover:shadow-md focus:outline-none focus:ring-2 focus:ring-blue-500">
+
+            <div class="flex gap-2 flex-wrap">
+                <button class="px-3 py-1 border rounded hover:scale-105 hover:bg-gray-100">Awards</button>
+                <button class="px-3 py-1 border rounded hover:scale-105 hover:bg-gray-100">Category</button>
+                <button class="px-3 py-1 border rounded hover:scale-105 hover:bg-gray-100">Tag</button>
+                <button class="px-3 py-1 border rounded hover:scale-105 hover:bg-gray-100">Technology</button>
+                <button class="px-3 py-1 border rounded hover:scale-105 hover:bg-gray-100">Country</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- 📢 FEATURED CARD -->
+    <section class="p-6">
+        <div class="grid md:grid-cols-2 gap-6 bg-white rounded-xl overflow-hidden shadow">
+
+            <img src="https://picsum.photos/600/300" class="w-full h-full object-cover">
+
+            <div class="p-6 flex flex-col justify-center">
+                <h2 class="text-2xl font-semibold mb-3">
+                    Buy a Domain the Smart Way
+                </h2>
+                <p class="text-gray-500 mb-4">
+                    Don’t miss your Spaceship deal — save on domains and build your online presence today.
+                </p>
+                <button class="self-start text-blue-500 font-semibold">
+                    Open →
+                </button>
+            </div>
+
+        </div>
+    </section>      
+
+    <!-- 🛍 GRID SECTION -->
+    <section class="p-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+
+        <!-- CARD 1 -->
+        <div class="bg-white rounded-xl overflow-hidden shadow hover:scale-105 transition">
+            <img src="https://picsum.photos/400?1" class="w-full h-48 object-cover">
+            <div class="p-3">
+                <p class="font-semibold">Polina Lisai</p>
+            </div>
+        </div>
+
+        <!-- CARD 2 -->
+        <div class="bg-white rounded-xl overflow-hidden shadow hover:scale-105 transition">
+            <img src="https://picsum.photos/400?2" class="w-full h-48 object-cover">
+            <div class="p-3">
+                <p class="font-semibold">Instructure</p>
+            </div>
+        </div>
+
+        <!-- CARD 3 -->
+        <div class="bg-white rounded-xl overflow-hidden shadow hover:scale-105 transition">
+            <img src="https://picsum.photos/400?3" class="w-full h-48 object-cover">
+            <div class="p-3">
+                <p class="font-semibold">Sparkling H2O</p>
+            </div>
+        </div>
+
+        <!-- CARD 4 -->
+        <div
+            class="bg-gradient-to-r from-purple-400 to-pink-400 rounded-xl flex items-center justify-center h-48 text-white text-xl font-bold">
+            Start Now
+        </div>
+
+    </section>
+
+</body>
+
+</html>
